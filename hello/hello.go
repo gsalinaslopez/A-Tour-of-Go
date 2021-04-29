@@ -16,7 +16,7 @@ func main() {
     fmt.Println("Hello, World!")
     fmt.Println(quote.Go())
 
-    message, err := greetings.Hello("")
+    message, err := greetings.Hello("Kale")
     if err != nil {
         log.Fatal(err)
     }
