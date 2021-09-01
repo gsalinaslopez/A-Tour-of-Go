@@ -49,7 +49,7 @@ func Same(t1, t2 *tree.Tree) bool {
 func main() {
     c := make(chan int)
     go Walk(tree.New(1), c)
-    for i := range c{
+    for i := range c {
         fmt.Println(i)
     }
 
